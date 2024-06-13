@@ -1,0 +1,71 @@
+.main{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(79,195,247,1) 100%);
+width: 100%;
+height: 1000px;
+}
+.title{
+text-align: center;
+font-family: cursive;
+font-size: 40px;
+color: #4fc3f7;
+}
+.container{
+    display: flex;
+    width: 80%;
+    height: 850px;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: solid 4px #139cdb ; 
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.left{
+    margin-right:30px ;
+}
+.rightcontainer{
+    display: flex;
+}
+.avt{
+    margin-top: 40px;
+}
+.infor{
+    margin-left: 100px;
+}
+.table{ 
+    display: flex;
+
+}
+.mainif{
+    font-size: large;
+    font-weight: 600;
+}
+.if{
+    margin-left: 100px;
+    font-size: large;
+}
+.eduif{display: flex;}
+.edudt{ margin-left: 50px;}
+.workdt{
+    padding-left: 50px;
+}
+.skilldt{
+    padding-left: 100px;
+}
+.produc{
+    table, th, td {
+        border: 1.5px solid #4fc3f7;
+        border-collapse: collapse;
+        padding-left:20px ;
+         padding-right:25px ;      }
+}
+.placetb{
+    table, th, td {
+        border: 1.5px solid #4fc3f7;
+        border-collapse: collapse;
+        padding-left:30px ;
+         padding-right:25px ; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+         }
+}
